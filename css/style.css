@@ -332,6 +332,8 @@ body {
   .section-b .rating {
     font-size: 1rem;
     flex-direction: column-reverse;
+    gap: 12px;
+    margin: 15px 0;
   }
   .section-b .seprater {
     display: none;
