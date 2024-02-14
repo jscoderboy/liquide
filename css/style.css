@@ -292,6 +292,10 @@ body {
   .section-b .row .col-2 {
     order: 1;
   }
+  .section-b h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
   .section-c .row {
     flex-direction: column;
   }
@@ -321,8 +325,15 @@ body {
 }
 
 /* mobile */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .section-c .trade-report {
     flex-direction: column;
+  }
+  .section-b .rating {
+    font-size: 1rem;
+    flex-direction: column-reverse;
+  }
+  .section-b .seprater {
+    display: none;
   }
 }
