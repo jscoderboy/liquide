@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Staatliches&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #0b0d2b;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+  overflow: hidden;
+}
+/* Utility */
+.primary-color {
+  color: #ff960b;
+}
+.main-header {
+  background: url("../images/hero_background.png");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.logo img {
+  max-width: 240px;
+  cursor: pointer;
+  -webkit-filter: invert(100%); /* Safari/Chrome */
+  filter: invert(100%);
+}
+.navbar {
+  padding: 40px 0;
+}
+.main-header .content {
+  margin-top: 8%;
+}
+.main-header .content h1 {
+  font-size: 70px;
+  margin-bottom: 15px;
+  font-family: "Staatliches", sans-serif;
+}
+.btn-primary {
+  display: inline-block;
+  margin-top: 30px;
+  background: #ff960b;
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+/* section-a */
+.section-a,
+.section-b {
+  color: #fff;
+  background-color: #0b0d2b;
+}
+.section-a .row {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 30px;
+}
+.section-a .row img,
+.section-b .row img,
+.section-c .row img {
+  /* max-width: 100%; */
+  max-width: 500px;
+}
+
+.section-a .offer {
+  padding: 40px;
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+.section-a h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+.section-a h2 span {
+  background: linear-gradient(90deg, #00dbde, #fc00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section-a p {
+  color: #f4f4f4;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+.section-a p span {
+  color: #ff960b;
+  font-size: 2rem;
+  font-family: "Staatliches", sans-serif;
+}
+/* Section-b */
+.section-b,
+.section-c,
+.section-d {
+  margin: 48px 0;
+}
+.section-b .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin: 50px 0;
+  gap: 50px;
+}
+.section-b h2 {
+  text-align: center;
+  font-size: 2.3rem;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+.section-b h3 {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}
+.section-b .rating {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 20px;
+  font-size: 1.3rem;
+  margin: 30px 0;
+  /* background-color: #f4f4f4; */
+}
+.section-b .rating .checked {
+  color: orange;
+}
+/* section-c */
+.section-c .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  color: #fff;
+}
+.section-c h2 {
+  font-size: 1.9rem;
+  text-transform: capitalize;
+}
+.section-c .secondary-heading {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.section-c .trade-report {
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-between; */
+  gap: 40px;
+  padding: 40px 0;
+  /* border: 1px solid red; */
+}
+.section-c .trade-report div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+  box-shadow: rgba(181, 181, 184, 0.27) 0px 0px 0.25em,
+    rgba(200, 201, 203, 0.05) 0px 0.25em 1em;
+}
+.section-c .trade-report span {
+  color: rgb(61, 232, 61);
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+/* Section-d */
+.section-d h2 {
+  color: #fff;
+  font-size: 2rem;
+  padding: 20px 0;
+  font-weight: 600;
+  text-align: center;
+}
+.section-d .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 40px 0;
+  flex-wrap: wrap;
+}
+.section-d .row .card {
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  max-width: 300px;
+  height: 280px;
+  max-height: 100%;
+  cursor: pointer;
+  /* border: 1px solid red; */
+  box-shadow: rgba(181, 181, 184, 0.27) 0px 0px 0.25em,
+    rgba(200, 201, 203, 0.05) 0px 0.25em 1em;
+}
+.section-d .card-text {
+  padding: 20px 0;
+  font-size: 1.1rem;
+}
+.section-d .card-text h3 {
+  font-weight: 400;
+}
+.section-d .card img {
+  max-width: 100px;
+  width: 100%;
+}
+.section-d .unlock-offer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  padding-top: 40px;
+}
+.section-d .unlock-offer .btn-secondary {
+  color: #000;
+  background-color: #ff960b;
+  padding: 15px 45px;
+  font-size: 1.7rem;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+/* footer */
+.main-footer {
+  margin-top: 40px;
+  color: #f4f4f4;
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #4f4e4e;
+  font-size: 0.9rem;
+}
+/* Media Query */
+@media (max-width: 768px) {
+  .logo img {
+    max-width: 150px;
+  }
+  .main-header {
+    height: 90vh;
+  }
+  .main-header .content h1 {
+    font-size: 50px;
+  }
+  .section-a .row {
+    flex-direction: column;
+  }
+  .section-a .row img,
+  .section-c .row img {
+    display: none;
+  }
+  .section-a h2,
+  .section-b h2,
+  .section-d h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .section-a p {
+    font-size: 1.2rem;
+  }
+  .section-a p span {
+    font-size: 1.8rem;
+  }
+  .section-a .offer {
+    padding: 20px;
+  }
+  .section-b,
+  .section-c {
+    margin: 30px 0;
+    border-bottom: 1px dotted #555555;
+  }
+  .section-b .row {
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+  }
+  .section-b .row img {
+    max-width: 400px;
+  }
+  .section-b .row .col-1 {
+    order: 2;
+  }
+  .section-b .row .col-2 {
+    order: 1;
+  }
+  .section-c .row {
+    flex-direction: column;
+  }
+  .section-c h2 {
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .section-c .trade-report span {
+    font-size: 2.8rem;
+    font-weight: 600;
+  }
+  .section-d .row .card {
+    padding: 20px;
+  }
+  .section-d .card-text {
+    font-size: 0.9rem;
+  }
+  .section-d .unlock-offer {
+    padding-top: 15px;
+  }
+  .section-d .unlock-offer .btn-secondary {
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+}
+
+/* mobile */
+@media (max-width: 500px) {
+  .section-c .trade-report {
+    flex-direction: column;
+  }
+}
