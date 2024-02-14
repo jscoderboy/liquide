@@ -335,7 +335,14 @@ body {
     gap: 12px;
     margin: 15px 0;
   }
+  .section-b p,
+  .section-b h3 {
+    text-align: center;
+  }
   .section-b .seprater {
     display: none;
+  }
+  .section-b .row img {
+    max-width: 320px;
   }
 }
