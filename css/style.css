@@ -67,6 +67,12 @@ body {
   padding: 20px;
   gap: 30px;
 }
+.section-a .video-container {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 1px 5px 0px;
+}
 .section-a .row img,
 .section-b .row img,
 .section-c .row img {
