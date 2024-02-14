@@ -267,6 +267,9 @@ body {
   .section-c .row img {
     display: none;
   }
+  .section-a video {
+    width: 100%;
+  }
   .section-a h2,
   .section-b h2,
   .section-d h2 {
