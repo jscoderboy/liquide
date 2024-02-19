@@ -183,13 +183,31 @@
           </div>
         </div>
         <!-- unlock button -->
-        <div class="unlock-offer">
-          <a
-            href="https://cosmofeed.com/vig/65d3032f67e67d0013b79e51"
-            target="_blank"
-            class="btn btn-secondary"
-            >Unlock for &#8377; 299</a
-          >
+        <!-- <div class="unlock-offer">
+          <div class="discounted-off">
+            <div class="d-flex">
+              <img src="./images/discount.png" alt="discount" />
+              <p>1 Month trial offer</p>
+            </div>
+            <a
+              href="https://cosmofeed.com/vig/65d3032f67e67d0013b79e51"
+              target="_blank"
+              class="btn btn-secondary"
+              >Unlock for &#8377; 299</a
+            >
+          </div>
+        </div> -->
+        <div class="form-box">
+          <div class="button-box btn-secondary">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" onclick="leftClick()">
+              One Month Trial Offer
+            </button>
+            <button type="button" class="toggle-btn" onclick="rightClick()">
+              Unlock for &#8377;<em>299</em>
+              <!-- <span class="line-through">&#8377; 999</span> -->
+            </button>
+          </div>
         </div>
       </div>
     </section>
@@ -199,5 +217,6 @@
         <p>&#169; 2024 by SmartSignal</p>
       </div>
     </footer>
+    <script src="./js/app.js"></script>
   </body>
 </html>

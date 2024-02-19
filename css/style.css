@@ -235,14 +235,15 @@ body {
   max-width: 100px;
   width: 100%;
 }
-.section-d .unlock-offer {
+/* .section-d .unlock-offer {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px 0;
   padding-top: 40px;
-}
-.section-d .unlock-offer .btn-secondary {
+  position: relative;
+} */
+/* .section-d .unlock-offer .btn-secondary {
   color: #000;
   background-color: #ff960b;
   padding: 15px 45px;
@@ -252,6 +253,62 @@ body {
   border: none;
   border-radius: 30px;
   font-weight: 600;
+} */
+/* .discounted-off {
+  color: #fff;
+  position: absolute;
+  background-color: red;
+  border: 1px solid green;
+  margin: 0 auto;
+} */
+/* .unlock-offer .discounted-off .d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  background: #fff;
+  color: black;
+  top: -30px;
+  right: 420px;
+  border-radius: 30px;
+  text-align: center;
+  padding: 30px;
+  width: 27%;
+  z-index: -1;
+}
+.unlock-offer .discounted-off .d-flex p {
+  font-size: 1.5rem;
+  font-weight: 600;
+} */
+.section-d .button-box {
+  width: 497px;
+  margin: 35px auto;
+  position: relative;
+  border-radius: 30px;
+  background: #fff;
+}
+
+.section-d .toggle-btn {
+  padding: 20px 15px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.section-d #btn {
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 277px;
+  height: 100%;
+  background: #ff960b;
+  border-radius: 30px;
+  transition: 0.5s;
 }
 .btn-secondary:hover,
 .btn-primary:hover {
