@@ -431,6 +431,9 @@ body {
 
 /* mobile */
 @media (max-width: 600px) {
+  .navbar {
+    padding: 20px 0;
+  }
   .main-header .content {
     margin-top: 1%;
   }
