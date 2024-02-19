@@ -380,7 +380,17 @@ body {
 
 /* mobile */
 @media (max-width: 600px) {
+  .main-header .content {
+    margin-top: 1%;
+  }
+  .main-header .content h1 {
+    font-size: 47px;
+    text-align: center;
+  }
   .btn-primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     display: block;
   }
   .section-c .trade-report {
