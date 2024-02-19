@@ -494,3 +494,12 @@ body {
     text-align: center;
   }
 }
+/* Small Screen */
+@media (max-width: 500px) {
+  .unlock-offer .btn-secondary {
+    right: 36px;
+  }
+  .section-d .unlock-offer .trial-offer {
+    max-width: 265px;
+  }
+}
