@@ -420,19 +420,19 @@ body {
     font-weight: 600;
   }
   .section-d .row .card {
-    padding: 20px;
+    /* padding: 20px; */
   }
   .section-d .card-text {
     font-size: 0.9rem;
   }
-  .section-d .unlock-offer {
+  /* .section-d .unlock-offer {
     padding-top: 15px;
   }
   .section-d .unlock-offer .btn-secondary {
     padding: 10px 30px;
     font-size: 1.1rem;
     font-weight: 500;
-  }
+  } */
 }
 
 /* mobile */
@@ -469,4 +469,5 @@ body {
   .section-b .row img {
     max-width: 320px;
   }
+  /* Section d button */
 }
